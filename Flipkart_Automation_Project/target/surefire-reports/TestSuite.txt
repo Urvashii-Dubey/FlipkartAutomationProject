@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 2.425 s <<< FAILURE! - in TestSuite
+flipkart.TestCases.LoginTest.InvalidNumberLogin  Time elapsed: 0.057 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Input must be set
+	at flipkart.TestCases.LoginTest.InvalidNumberLogin(LoginTest.java:21)
+
+flipkart.TestCases.LoginTest.ValidNumberLogin  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Input must be set
+	at flipkart.TestCases.LoginTest.ValidNumberLogin(LoginTest.java:48)
+
+flipkart.TestCases.RegisterTest.RegisterUser  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Input must be set
+	at flipkart.TestCases.RegisterTest.RegisterUser(RegisterTest.java:21)
+
+flipkart.TestCases.BecomeASellerTest.BecomeASeller  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Input must be set
+	at flipkart.TestCases.BecomeASellerTest.BecomeASeller(BecomeASellerTest.java:20)
+
+flipkart.TestCases.SearchAProductTest.SearchAProduct  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Input must be set
+	at flipkart.TestCases.SearchAProductTest.SearchAProduct(SearchAProductTest.java:21)
+
+flipkart.TestCases.AddToCartTest.AddToCart  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Input must be set
+	at flipkart.TestCases.AddToCartTest.AddToCart(AddToCartTest.java:22)
+
+flipkart.TestCases.AddToCartTest.DeleteProductFromCart  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Input must be set
+	at flipkart.TestCases.AddToCartTest.AddToCart(AddToCartTest.java:22)
+	at flipkart.TestCases.AddToCartTest.DeleteProductFromCart(AddToCartTest.java:52)
+

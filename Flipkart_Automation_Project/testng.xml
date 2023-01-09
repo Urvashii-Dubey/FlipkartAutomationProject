@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Flipkart">
+<test name="Functional">
+   <!--   <groups>
+         <run>
+            <include name = "smoke" /> 
+         </run>
+      </groups> -->
+<classes>
+  <class name="flipkart.TestCases.LoginTest"/>
+  <class name="flipkart.TestCases.RegisterTest"/>
+  <class name="flipkart.TestCases.FlipkartCareerTest"/>
+  <class name="flipkart.TestCases.BecomeASellerTest"/>
+  <class name="flipkart.TestCases.FlipkartAdsTest"/>
+  <class name="flipkart.TestCases.FlipkartSocialLinksTest"/>
+  <class name="flipkart.TestCases.SearchAProductTest"/>
+  <class name="flipkart.TestCases.AddToCartTest"/>
+  <class name="flipkart.TestCases.FlipkartStoriesTest"/>
+  <class name="flipkart.TestCases.ExplorePlusTest"/> 
+  <class name="flipkart.TestCases.CustomerCareTest"/> 
+</classes>
+</test>
+<!--  Test  -->
+<listeners>
+    <listener class-name="flipkart.Utilities.TestExecutionListener"/>
+</listeners>
+</suite>
+<!--  Suite  -->

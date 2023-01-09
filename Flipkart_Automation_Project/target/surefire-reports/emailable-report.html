@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Flipkart</th></tr>
+<tr><td><a href="#t0">Functional</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">7</td><td class="num">146</td><td>smoke</td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Flipkart</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Functional &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">flipkart.TestCases.AddToCartTest</td><td><a href="#m0">AddToCart</a></td><td rowspan="1">1673194205570</td><td rowspan="1">7</td></tr><tr class="failedeven"><td><a href="#m1">DeleteProductFromCart</a></td><td rowspan="1">1673194205578</td><td rowspan="1">1</td></tr><tr class="failedodd"><td rowspan="1">flipkart.TestCases.BecomeASellerTest</td><td><a href="#m2">BecomeASeller</a></td><td rowspan="1">1673194205552</td><td rowspan="1">9</td></tr><tr class="failedeven"><td rowspan="2">flipkart.TestCases.LoginTest</td><td><a href="#m3">InvalidNumberLogin</a></td><td rowspan="1">1673194205475</td><td rowspan="1">54</td></tr><tr class="failedeven"><td><a href="#m4">ValidNumberLogin</a></td><td rowspan="1">1673194205538</td><td rowspan="1">1</td></tr><tr class="failedodd"><td rowspan="1">flipkart.TestCases.RegisterTest</td><td><a href="#m5">RegisterUser</a></td><td rowspan="1">1673194205542</td><td rowspan="1">9</td></tr><tr class="failedeven"><td rowspan="1">flipkart.TestCases.SearchAProductTest</td><td><a href="#m6">SearchAProduct</a></td><td rowspan="1">1673194205562</td><td rowspan="1">7</td></tr></tbody>
+</table>
+<h2>Functional</h2><h3 id="m0">flipkart.TestCases.AddToCartTest#AddToCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Input must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:59)
+	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:97)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:77)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:46)
+	at flipkart.Utilities.ExplicitWaitManager.waitForTitle(ExplicitWaitManager.java:28)
+	at flipkart.Pages.HomePage.waitForHomePageLoad(HomePage.java:118)
+	at flipkart.TestCases.SearchAProductTest.SearchAProduct(SearchAProductTest.java:21)
+	at flipkart.TestCases.AddToCartTest.AddToCart(AddToCartTest.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">flipkart.TestCases.AddToCartTest#DeleteProductFromCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Input must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:59)
+	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:97)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:77)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:46)
+	at flipkart.Utilities.ExplicitWaitManager.waitForTitle(ExplicitWaitManager.java:28)
+	at flipkart.Pages.HomePage.waitForHomePageLoad(HomePage.java:118)
+	at flipkart.TestCases.SearchAProductTest.SearchAProduct(SearchAProductTest.java:21)
+	at flipkart.TestCases.AddToCartTest.AddToCart(AddToCartTest.java:22)
+	at flipkart.TestCases.AddToCartTest.DeleteProductFromCart(AddToCartTest.java:52)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">flipkart.TestCases.BecomeASellerTest#BecomeASeller</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Input must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:59)
+	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:97)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:77)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:46)
+	at flipkart.Utilities.ExplicitWaitManager.waitForTitle(ExplicitWaitManager.java:28)
+	at flipkart.Pages.HomePage.waitForHomePageLoad(HomePage.java:118)
+	at flipkart.TestCases.BecomeASellerTest.BecomeASeller(BecomeASellerTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">flipkart.TestCases.LoginTest#InvalidNumberLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Input must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:59)
+	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:97)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:77)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:46)
+	at flipkart.Utilities.ExplicitWaitManager.waitForTitle(ExplicitWaitManager.java:28)
+	at flipkart.Pages.HomePage.waitForHomePageLoad(HomePage.java:118)
+	at flipkart.TestCases.LoginTest.InvalidNumberLogin(LoginTest.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">flipkart.TestCases.LoginTest#ValidNumberLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Input must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:59)
+	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:97)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:77)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:46)
+	at flipkart.Utilities.ExplicitWaitManager.waitForTitle(ExplicitWaitManager.java:28)
+	at flipkart.Pages.HomePage.waitForHomePageLoad(HomePage.java:118)
+	at flipkart.TestCases.LoginTest.ValidNumberLogin(LoginTest.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">flipkart.TestCases.RegisterTest#RegisterUser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Input must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:59)
+	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:97)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:77)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:46)
+	at flipkart.Utilities.ExplicitWaitManager.waitForTitle(ExplicitWaitManager.java:28)
+	at flipkart.Pages.HomePage.waitForHomePageLoad(HomePage.java:118)
+	at flipkart.TestCases.RegisterTest.RegisterUser(RegisterTest.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">flipkart.TestCases.SearchAProductTest#SearchAProduct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Input must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:59)
+	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:97)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:77)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:46)
+	at flipkart.Utilities.ExplicitWaitManager.waitForTitle(ExplicitWaitManager.java:28)
+	at flipkart.Pages.HomePage.waitForHomePageLoad(HomePage.java:118)
+	at flipkart.TestCases.SearchAProductTest.SearchAProduct(SearchAProductTest.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

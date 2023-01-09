@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Flipkart]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="flipkart.Utilities.TestExecutionListener"/>
+  </listeners>
+  <test thread-count="5" name="Functional(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="flipkart.TestCases.BecomeASellerTest">
+        <methods>
+          <include name="BecomeASeller"/>
+        </methods>
+      </class> <!-- flipkart.TestCases.BecomeASellerTest -->
+      <class name="flipkart.TestCases.RegisterTest">
+        <methods>
+          <include name="RegisterUser"/>
+        </methods>
+      </class> <!-- flipkart.TestCases.RegisterTest -->
+      <class name="flipkart.TestCases.LoginTest">
+        <methods>
+          <include name="ValidNumberLogin"/>
+          <include name="InvalidNumberLogin"/>
+        </methods>
+      </class> <!-- flipkart.TestCases.LoginTest -->
+      <class name="flipkart.TestCases.AddToCartTest">
+        <methods>
+          <include name="DeleteProductFromCart"/>
+          <include name="AddToCart"/>
+        </methods>
+      </class> <!-- flipkart.TestCases.AddToCartTest -->
+      <class name="flipkart.TestCases.SearchAProductTest">
+        <methods>
+          <include name="SearchAProduct"/>
+        </methods>
+      </class> <!-- flipkart.TestCases.SearchAProductTest -->
+    </classes>
+  </test> <!-- Functional(failed) -->
+</suite> <!-- Failed suite [Flipkart] -->
